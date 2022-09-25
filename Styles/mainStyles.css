@@ -1,0 +1,31 @@
+:root{
+    --NavTextColor:white;
+    --PrimaryColor:#53565a;
+    --SecondaryColor:	#FFFAFA;
+    --TertiaryColor:#009ccf;
+}
+*{
+    font-family: 'Montserrat';
+}
+html{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    margin: 0;
+}
+main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    
+    background: radial-gradient(#8091afd7,var(--PrimaryColor));
+}
+header{
+    width: 100%;
+}

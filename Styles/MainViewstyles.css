@@ -1,0 +1,62 @@
+:root{
+    --TextColor:	#F8F8FF;
+    --TertiaryColor:#B8382F;
+}
+#descriptionContainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+#NameContainer
+{
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 45%;
+    color:var(--TextColor);
+    justify-content: flex-start;
+    
+}
+#NameContainer h2{
+    font-size: 3rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px #32353a;
+    z-index: 2;
+}
+#shortDescCont{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-left: 45%;
+    padding-right: 15%;
+
+}
+#shortDescCont p{
+    font-size: 1.3rem;
+    color: var(--TextColor);
+    z-index: 2;
+    text-shadow: 0.4px 0.4px #32353a;
+
+}
+.multiline{
+    white-space: pre-wrap;
+}
+.redCircle {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: var(--TertiaryColor);
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    
+  }
+#HCircle{
+    left: 14%;
+}

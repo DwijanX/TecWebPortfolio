@@ -1,0 +1,46 @@
+:root{
+    --NavTextColor:	#F8F8FF;
+    --NavBackgroundColor:#4c535f;
+    --TertiaryColor:#B8382F;
+}
+#NavBarContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--NavBackgroundColor);
+    
+}
+#NavNameCont{
+    background-color: var(--TertiaryColor);
+    border-radius: 5%;
+}
+#NavNameCont p{
+    color: var(--NavTextColor);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+#NavButtonsCont{
+    display: flex;
+    flex-direction: row;
+    min-width: 30%;
+    max-width: 50%;
+    margin-right: 2rem;
+    box-sizing:content-box;
+}
+#NavBarContainer ul{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 0;
+    list-style-type: none;
+}
+#NavBarContainer li>a{
+    text-decoration: none;
+    color: var(--NavTextColor);
+    margin-left: 0.1rem;
+}
+#NavBarContainer li>a:hover{
+    border-bottom:1px solid white;
+    transition: all 0.4s ease-in;
+}
