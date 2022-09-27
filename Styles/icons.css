@@ -1,0 +1,36 @@
+/*Social media icons*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa-brands,.fa-solid,svg{
+    padding: 20px;
+    font-size: 3rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: #183153;
+    border-radius: 35%;
+    color: white;
+}
+  .fa:hover,.fa-brands:hover,.fa-solid:hover,svg:hover {
+    opacity: 0.7;
+  }
+
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+.fa-envelope {
+  background: black;
+  color: white;
+}
+path{
+  fill: white;
+}

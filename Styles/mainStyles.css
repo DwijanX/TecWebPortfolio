@@ -1,29 +1,19 @@
 :root{
-    --NavTextColor:white;
+    --TextColor:	#F8F8FF;
     --PrimaryColor:#53565a;
     --SecondaryColor:	#FFFAFA;
-    --TertiaryColor:#009ccf;
+    --TertiaryColor:#B8382F;
+    --NavBackgroundColor:#4c535f;
 }
 *{
     font-family: 'Montserrat';
 }
-html{
-    display: flex;
-    height: 100%;
-    width: 100%;
-}
 body{
-    display: flex;
-    height: 100%;
-    width: 100%;
-    flex-direction: column;
     margin: 0;
 }
 main{
     display: flex;
-    height: 100%;
-    width: 100%;
-    
+    flex-direction: column;
     background: radial-gradient(#8091afd7,var(--PrimaryColor));
 }
 header{
