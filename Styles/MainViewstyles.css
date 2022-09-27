@@ -145,7 +145,7 @@
     transition: all 0.3s ease-in;
 
 }
-.ProjectBox img:hover{
+.ProjectBox img:focus{
     height: 15rem;
     width: 15rem;
     margin-right: 0rem;
@@ -158,7 +158,7 @@
     text-align: justify;
     transition: all 0.3s ease ;
 }
-.ProjectBox img:hover+p{
+.ProjectBox img:focus+p{
     display: block;
 }
 .ProjectBox{
